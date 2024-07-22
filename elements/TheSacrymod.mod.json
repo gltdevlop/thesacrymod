@@ -1,0 +1,11 @@
+{
+  "_fv": 43,
+  "_type": "tab",
+  "definition": {
+    "name": "The Sacrymod",
+    "icon": {
+      "value": "Items.COPPER_INGOT"
+    },
+    "showSearch": false
+  }
+}

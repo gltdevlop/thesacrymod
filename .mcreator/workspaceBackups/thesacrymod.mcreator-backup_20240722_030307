@@ -1,0 +1,241 @@
+{
+  "mod_elements": [
+    {
+      "name": "TheSacrymod",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_sacrymod",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "CopperArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/thesacrymod/models/item/copper_armor_boots.json",
+          "src/main/resources/assets/thesacrymod/models/item/copper_armor_helmet.json",
+          "src/main/resources/assets/thesacrymod/models/item/copper_armor_chestplate.json",
+          "src/main/java/fr/gltdevlop/thesacrymod/item/CopperArmorItem.java",
+          "src/main/resources/assets/thesacrymod/models/item/copper_armor_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thesacrymod/recipes/copper_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thesacrymod/recipes/copper_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thesacrymod/recipes/copper_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thesacrymod/recipes/copper_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/thesacrymod/models/item/copper_pickaxe.json",
+          "src/main/java/fr/gltdevlop/thesacrymod/item/CopperPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CopperAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gltdevlop/thesacrymod/item/CopperAxeItem.java",
+          "src/main/resources/assets/thesacrymod/models/item/copper_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gltdevlop/thesacrymod/item/CopperSwordItem.java",
+          "src/main/resources/assets/thesacrymod/models/item/copper_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gltdevlop/thesacrymod/item/CopperShovelItem.java",
+          "src/main/resources/assets/thesacrymod/models/item/copper_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/thesacrymod/models/item/copper_hoe.json",
+          "src/main/java/fr/gltdevlop/thesacrymod/item/CopperHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CopperPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thesacrymod/recipes/copper_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thesacrymod/recipes/copper_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thesacrymod/recipes/copper_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thesacrymod/recipes/copper_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thesacrymod/recipes/copper_hoe_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.thesacrymod.copper_sword": "Copper Sword",
+      "item.thesacrymod.copper_armor_helmet": "Copper Helmet",
+      "item.thesacrymod.copper_armor_chestplate": "Copper Chestplate",
+      "item.thesacrymod.copper_pickaxe": "Copper Pickaxe",
+      "itemGroup.tabthe_sacrymod": "The Sacrymod",
+      "item.thesacrymod.copper_armor_leggings": "Copper Leggings",
+      "item.thesacrymod.copper_shovel": "Copper Shovel",
+      "item.thesacrymod.copper_armor_boots": "Copper Boots",
+      "item.thesacrymod.copper_axe": "Copper Axe",
+      "item.thesacrymod.copper_hoe": "Copper Hoe"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "thesacrymod",
+    "modName": "TheSacryMod",
+    "version": "1.0.0",
+    "author": "gabrielbrte, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "fr.gltdevlop.thesacrymod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}

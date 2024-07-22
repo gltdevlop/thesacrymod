@@ -1,0 +1,22 @@
+{
+  "block.thesacrymod.copper_grass": "Copper Grass",
+  "biome.thesacrymod.copper_corrupted": "Copper Corrupted",
+  "itemGroup.tabthe_sacrymod": "The Sacrymod",
+  "item.thesacrymod.copper_shovel": "Copper Shovel",
+  "item.thesacrymod.copper_armor_boots": "Copper Boots",
+  "gui.thesacrymod.tccsp_gui.label_12_redstone": "12 REDSTONE",
+  "item.thesacrymod.copper_axe": "Copper Axe",
+  "item.thesacrymod.copper_sword": "Copper Sword",
+  "gui.thesacrymod.tccsp_gui.button_spawn": "SPAWN !",
+  "item.thesacrymod.copper_armor_helmet": "Copper Helmet",
+  "item.thesacrymod.copper_armor_chestplate": "Copper Chestplate",
+  "block.thesacrymod.copperdirt": "Copper Dirt",
+  "item.thesacrymod.copper_pickaxe": "Copper Pickaxe",
+  "gui.thesacrymod.tccsp_gui.label_64_copper": "64 COPPER",
+  "item.thesacrymod.copper_armor_leggings": "Copper Leggings",
+  "item.thesacrymod.thecorruptedcopper_spawn_egg": "The Corrupted Copper Spawn Egg",
+  "block.thesacrymod.tcc_spawn": "The Copper Corrupted Spawner",
+  "gui.thesacrymod.tccsp_gui.label_the_copper_currupted_spawner": "The Copper Currupted - Spawner",
+  "entity.thesacrymod.thecorruptedcopper": "The Corrupted Copper",
+  "item.thesacrymod.copper_hoe": "Copper Hoe"
+}

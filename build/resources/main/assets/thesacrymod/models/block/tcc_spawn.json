@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "thesacrymod:blocks/tccspawntop",
+    "up": "thesacrymod:blocks/tccspawntop",
+    "north": "thesacrymod:blocks/tccspawnblock",
+    "east": "thesacrymod:blocks/tccspawnblock",
+    "south": "thesacrymod:blocks/tccspawnblock",
+    "west": "thesacrymod:blocks/tccspawnblock",
+    "particle": "thesacrymod:blocks/tccspawntop"
+  },
+  "render_type": "solid"
+}

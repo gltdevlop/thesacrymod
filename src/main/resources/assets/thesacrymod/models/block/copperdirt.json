@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "thesacrymod:blocks/coppergrassbottom",
+    "up": "thesacrymod:blocks/coppergrassbottom",
+    "north": "thesacrymod:blocks/coppergrassbottom",
+    "east": "thesacrymod:blocks/coppergrassbottom",
+    "south": "thesacrymod:blocks/coppergrassbottom",
+    "west": "thesacrymod:blocks/coppergrassbottom",
+    "particle": "thesacrymod:blocks/coppergrassbottom"
+  },
+  "render_type": "solid"
+}

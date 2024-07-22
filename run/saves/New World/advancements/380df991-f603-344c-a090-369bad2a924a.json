@@ -1,0 +1,16 @@
+{
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2024-07-22 03:13:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:snowy_taiga": "2024-07-22 03:12:37 +0200",
+      "minecraft:snowy_beach": "2024-07-22 03:12:48 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}

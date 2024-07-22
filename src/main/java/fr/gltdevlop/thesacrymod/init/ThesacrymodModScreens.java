@@ -12,6 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.gui.screens.MenuScreens;
 
 import fr.gltdevlop.thesacrymod.client.gui.TCCSPGuiScreen;
+import fr.gltdevlop.thesacrymod.client.gui.StartGuideScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class ThesacrymodModScreens {
@@ -19,6 +20,7 @@ public class ThesacrymodModScreens {
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
 			MenuScreens.register(ThesacrymodModMenus.TCCSP_GUI.get(), TCCSPGuiScreen::new);
+			MenuScreens.register(ThesacrymodModMenus.START_GUIDE.get(), StartGuideScreen::new);
 		});
 	}
 }

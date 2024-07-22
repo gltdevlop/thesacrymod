@@ -14,6 +14,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import fr.gltdevlop.thesacrymod.item.StartingGuideItem;
 import fr.gltdevlop.thesacrymod.item.NGGYUItem;
 import fr.gltdevlop.thesacrymod.item.CopperSwordItem;
 import fr.gltdevlop.thesacrymod.item.CopperShovelItem;
@@ -42,6 +43,7 @@ public class ThesacrymodModItems {
 	public static final RegistryObject<Item> TCC_SPAWN = block(ThesacrymodModBlocks.TCC_SPAWN, ThesacrymodModTabs.TAB_THE_SACRYMOD);
 	public static final RegistryObject<Item> COMPRESSED_COPPER = REGISTRY.register("compressed_copper", () -> new CompressedCopperItem());
 	public static final RegistryObject<Item> NGGYU = REGISTRY.register("nggyu", () -> new NGGYUItem());
+	public static final RegistryObject<Item> STARTING_GUIDE = REGISTRY.register("starting_guide", () -> new StartingGuideItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

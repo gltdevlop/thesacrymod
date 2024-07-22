@@ -1,0 +1,157 @@
+{
+  "_fv": 43,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 219,
+    "height": 191,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_the_sacry_mod_starting_guidee",
+          "text": {
+            "fixedValue": "The Sacry Mod - Starting Guide"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 131,
+          "y": 34
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_mobs",
+          "text": {
+            "fixedValue": "---------- MOBS ----------"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 139,
+          "y": 58
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_the_corrupted_copper_spawner",
+          "text": {
+            "fixedValue": "the Corrupted Copper Spawner."
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 138,
+          "y": 90
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_you_can_spawn_the_corrupted_copp",
+          "text": {
+            "fixedValue": "You can spawn the Corrupted Copper in "
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 114,
+          "y": 68
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_the_corrupted_copper_biome",
+          "text": {
+            "fixedValue": "the Corrupted Copper Biome by using"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 120,
+          "y": 78
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_tools_armors",
+          "text": {
+            "fixedValue": "---------- Tools / Armors ----------"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 114,
+          "y": 112
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_use_can_craft_the_copper_armor_a",
+          "text": {
+            "fixedValue": "Use can craft the Copper Armor and "
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 122,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_tools_by_using_copper_ingots_and",
+          "text": {
+            "fixedValue": "tools by using Copper Ingots and"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 129,
+          "y": 135
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_compressed_copper",
+          "text": {
+            "fixedValue": "Compressed Copper."
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 166,
+          "y": 145
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

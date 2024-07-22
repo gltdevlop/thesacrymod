@@ -391,56 +391,90 @@
       }
     },
     {
-      "name": "WorldInfos",
-      "type": "gui",
-      "sortid": 25,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "world_infos",
-      "metadata": {
-        "files": [
-          "src/main/java/fr/gltdevlop/thesacrymod/world/inventory/WorldInfosMenu.java",
-          "src/main/java/fr/gltdevlop/thesacrymod/client/gui/WorldInfosScreen.java"
-        ]
-      }
-    },
-    {
-      "name": "ModifyInfos",
-      "type": "procedure",
+      "name": "NGGYU",
+      "type": "musicdisc",
       "sortid": 27,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "modify_infos",
+      "registry_name": "nggyu",
       "metadata": {
         "files": [
-          "src/main/java/fr/gltdevlop/thesacrymod/procedures/ModifyInfosProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "guistate",
-            "type": "map"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
+          "src/main/java/fr/gltdevlop/thesacrymod/item/NGGYUItem.java",
+          "src/main/resources/assets/thesacrymod/models/item/nggyu.json"
         ]
       }
     },
     {
-      "name": "OpenInfosGui",
-      "type": "procedure",
+      "name": "NggyuCraft",
+      "type": "recipe",
       "sortid": 28,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "open_infos_gui",
+      "registry_name": "nggyu_craft",
       "metadata": {
         "files": [
-          "src/main/java/fr/gltdevlop/thesacrymod/procedures/OpenInfosGuiProcedure.java"
+          "src/main/resources/data/thesacrymod/recipes/nggyu_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "StartGuide",
+      "type": "gui",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "start_guide",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gltdevlop/thesacrymod/world/inventory/StartGuideMenu.java",
+          "src/main/java/fr/gltdevlop/thesacrymod/client/gui/StartGuideScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "StartingGuide",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starting_guide",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gltdevlop/thesacrymod/item/inventory/StartingGuideInventoryCapability.java",
+          "src/main/java/fr/gltdevlop/thesacrymod/item/StartingGuideItem.java",
+          "src/main/resources/assets/thesacrymod/models/item/starting_guide.json"
+        ]
+      }
+    },
+    {
+      "name": "PJCount",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pj_count",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gltdevlop/thesacrymod/procedures/PJCountProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PFirstTime",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "p_first_time",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gltdevlop/thesacrymod/procedures/PFirstTimeProcedure.java"
         ],
         "dependencies": [
           {
@@ -455,51 +489,97 @@
       }
     },
     {
-      "name": "InfosKey",
-      "type": "keybind",
+      "name": "Speaker",
+      "type": "block",
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "infos_key",
+      "registry_name": "speaker",
       "metadata": {
         "files": [
-          "src/main/java/fr/gltdevlop/thesacrymod/network/InfosKeyMessage.java"
+          "src/main/resources/assets/thesacrymod/models/item/speaker.json",
+          "src/main/resources/assets/thesacrymod/blockstates/speaker.json",
+          "src/main/resources/assets/thesacrymod/models/block/speaker.json",
+          "src/main/java/fr/gltdevlop/thesacrymod/block/SpeakerBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "SpeakerController",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speaker_controller",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/thesacrymod/blockstates/speaker_controller.json",
+          "src/main/resources/assets/thesacrymod/models/item/speaker_controller.json",
+          "src/main/resources/assets/thesacrymod/models/block/speaker_controller.json",
+          "src/main/java/fr/gltdevlop/thesacrymod/block/SpeakerControllerBlock.java"
         ]
       }
     }
   ],
-  "variable_elements": [],
-  "sound_elements": [],
+  "variable_elements": [
+    {
+      "name": "PlayerJCount",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "never",
+      "files": [
+        "rick_astley_-_never_gonna_give_you_up_official_music_video"
+      ],
+      "category": "record",
+      "subtitle": ""
+    }
+  ],
   "language_map": {
     "en_us": {
+      "block.thesacrymod.speaker_controller": "Speaker Controller",
       "block.thesacrymod.copper_grass": "Copper Grass",
+      "gui.thesacrymod.start_guide.label_you_can_spawn_the_corrupted_copp": "You can spawn the Corrupted Copper in ",
       "biome.thesacrymod.copper_corrupted": "Copper Corrupted",
-      "key.thesacrymod.infos_key": "Infos Key",
+      "block.thesacrymod.speaker": "Speaker",
       "itemGroup.tabthe_sacrymod": "The Sacrymod",
+      "gui.thesacrymod.start_guide.label_mobs": "---------- MOBS ----------",
       "item.thesacrymod.compressed_copper": "Compressed Copper",
-      "gui.thesacrymod.world_infos.empty": "e",
-      "gui.thesacrymod.world_infos.label_empty": "",
       "item.thesacrymod.copper_sword": "Copper Sword",
+      "gui.thesacrymod.start_guide.label_the_corrupted_copper_biome": "the Corrupted Copper Biome by using",
       "item.thesacrymod.copper_armor_helmet": "Copper Helmet",
+      "gui.thesacrymod.start_guide.label_tools_armors": "---------- Tools / Armors ----------",
+      "gui.thesacrymod.start_guide.label_compressed_copper": "Compressed Copper.",
       "block.thesacrymod.copperdirt": "Copper Dirt",
       "item.thesacrymod.copper_pickaxe": "Copper Pickaxe",
       "gui.thesacrymod.tccsp_gui.label_64_copper": "64 COPPER",
       "item.thesacrymod.copper_armor_leggings": "Copper Leggings",
       "item.thesacrymod.thecorruptedcopper_spawn_egg": "The Corrupted Copper Spawn Egg",
-      "gui.thesacrymod.world_infos.label_dimension": "Dimension : ",
       "block.thesacrymod.tcc_spawn": "The Copper Corrupted Spawner",
-      "gui.thesacrymod.world_infos.empty1": "",
+      "gui.thesacrymod.start_guide.label_use_can_craft_the_copper_armor_a": "Use can craft the Copper Armor and ",
+      "gui.thesacrymod.start_guide.label_the_corrupted_copper_spawner": "the Corrupted Copper Spawner.",
+      "subtitles.nggyu": "",
       "gui.thesacrymod.world_infos.label_empty1": "",
+      "item.thesacrymod.starting_guide": "Starting Guide",
       "item.thesacrymod.copper_shovel": "Copper Shovel",
-      "gui.thesacrymod.world_infos.label_world_time": "World Time :",
       "item.thesacrymod.copper_armor_boots": "Copper Boots",
       "gui.thesacrymod.tccsp_gui.label_12_redstone": "12 REDSTONE",
       "item.thesacrymod.copper_axe": "Copper Axe",
       "gui.thesacrymod.tccsp_gui.button_spawn": "SPAWN !",
+      "subtitles.never": "",
+      "item.thesacrymod.nggyu": "NGGYU Disc",
       "item.thesacrymod.copper_armor_chestplate": "Copper Chestplate",
+      "gui.thesacrymod.start_guide.label_the_sacry_mod_starting_guidee": "The Sacry Mod - Starting Guide",
       "gui.thesacrymod.tccsp_gui.label_the_copper_currupted_spawner": "The Copper Currupted - Spawner",
       "entity.thesacrymod.thecorruptedcopper": "The Corrupted Copper",
       "item.thesacrymod.copper_hoe": "Copper Hoe",
-      "gui.thesacrymod.time.label_its": "It\u0027s "
+      "gui.thesacrymod.time.label_its": "It\u0027s ",
+      "item.thesacrymod.nggyu.desc": "NGGYU :)",
+      "gui.thesacrymod.start_guide.label_tools_by_using_copper_ingots_and": "tools by using Copper Ingots and"
     }
   },
   "foldersRoot": {

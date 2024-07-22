@@ -68,7 +68,7 @@ public abstract class CopperArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "thesacrymod:textures/models/armor/copper_layer_1.png";
+			return "thesacrymod:textures/models/armor/copperamor_layer_1.png";
 		}
 	}
 
@@ -79,7 +79,7 @@ public abstract class CopperArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "thesacrymod:textures/models/armor/copper_layer_1.png";
+			return "thesacrymod:textures/models/armor/copperamor_layer_1.png";
 		}
 	}
 
@@ -90,7 +90,7 @@ public abstract class CopperArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "thesacrymod:textures/models/armor/copper_layer_2.png";
+			return "thesacrymod:textures/models/armor/copperamor_layer_2.png";
 		}
 	}
 
@@ -101,7 +101,7 @@ public abstract class CopperArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "thesacrymod:textures/models/armor/copper_layer_1.png";
+			return "thesacrymod:textures/models/armor/copperamor_layer_1.png";
 		}
 	}
 }

@@ -39,6 +39,7 @@ import java.util.ArrayList;
 import java.util.AbstractMap;
 
 import fr.gltdevlop.thesacrymod.init.ThesacrymodModTabs;
+import fr.gltdevlop.thesacrymod.init.ThesacrymodModSounds;
 import fr.gltdevlop.thesacrymod.init.ThesacrymodModMenus;
 import fr.gltdevlop.thesacrymod.init.ThesacrymodModItems;
 import fr.gltdevlop.thesacrymod.init.ThesacrymodModEntities;
@@ -54,7 +55,7 @@ public class ThesacrymodMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		ThesacrymodModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		ThesacrymodModSounds.REGISTRY.register(bus);
 		ThesacrymodModBlocks.REGISTRY.register(bus);
 		ThesacrymodModItems.REGISTRY.register(bus);
 		ThesacrymodModEntities.REGISTRY.register(bus);

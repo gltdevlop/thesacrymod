@@ -3,7 +3,7 @@
   "pattern": [
     "012",
     "3 5",
-    "6 8"
+    "678"
   ],
   "key": {
     "0": {
@@ -23,6 +23,9 @@
     },
     "6": {
       "item": "minecraft:copper_ingot"
+    },
+    "7": {
+      "item": "thesacrymod:compressed_copper"
     },
     "8": {
       "item": "minecraft:copper_ingot"

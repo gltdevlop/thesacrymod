@@ -7,13 +7,14 @@ import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
+
+import fr.gltdevlop.thesacrymod.init.ThesacrymodModTabs;
 
 public abstract class CopperArmorItem extends ArmorItem {
 	public CopperArmorItem(EquipmentSlot slot, Item.Properties properties) {
@@ -25,7 +26,7 @@ public abstract class CopperArmorItem extends ArmorItem {
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{6, 18, 15, 6}[slot.getIndex()];
+				return new int[]{5, 9, 8, 4}[slot.getIndex()];
 			}
 
 			@Override
@@ -50,7 +51,7 @@ public abstract class CopperArmorItem extends ArmorItem {
 
 			@Override
 			public float getToughness() {
-				return 0f;
+				return 2.1f;
 			}
 
 			@Override
@@ -62,7 +63,7 @@ public abstract class CopperArmorItem extends ArmorItem {
 
 	public static class Helmet extends CopperArmorItem {
 		public Helmet() {
-			super(EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(EquipmentSlot.HEAD, new Item.Properties().tab(ThesacrymodModTabs.TAB_THE_SACRYMOD));
 		}
 
 		@Override
@@ -73,7 +74,7 @@ public abstract class CopperArmorItem extends ArmorItem {
 
 	public static class Chestplate extends CopperArmorItem {
 		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(EquipmentSlot.CHEST, new Item.Properties().tab(ThesacrymodModTabs.TAB_THE_SACRYMOD));
 		}
 
 		@Override
@@ -84,7 +85,7 @@ public abstract class CopperArmorItem extends ArmorItem {
 
 	public static class Leggings extends CopperArmorItem {
 		public Leggings() {
-			super(EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(EquipmentSlot.LEGS, new Item.Properties().tab(ThesacrymodModTabs.TAB_THE_SACRYMOD));
 		}
 
 		@Override
@@ -95,7 +96,7 @@ public abstract class CopperArmorItem extends ArmorItem {
 
 	public static class Boots extends CopperArmorItem {
 		public Boots() {
-			super(EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(EquipmentSlot.FEET, new Item.Properties().tab(ThesacrymodModTabs.TAB_THE_SACRYMOD));
 		}
 
 		@Override

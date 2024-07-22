@@ -1,0 +1,19 @@
+{
+  "_fv": 43,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "NGGYU Disc",
+    "texture": "nggyu",
+    "description": "NGGYU :)",
+    "creativeTab": {
+      "value": "CUSTOM:TheSacrymod"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:never"
+    },
+    "lengthInTicks": 10000,
+    "analogOutput": 0
+  }
+}

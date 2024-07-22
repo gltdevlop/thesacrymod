@@ -3,12 +3,12 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "copper_sword",
+    "texture": "ee_sword",
     "customModelName": "Normal",
     "name": "Copper Sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:TheSacrymod"
     },
     "toolType": "Sword",
     "harvestLevel": 6,

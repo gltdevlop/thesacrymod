@@ -3,12 +3,12 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "copper_pickaxe",
+    "texture": "ee_pickaxe",
     "customModelName": "Normal",
     "name": "Copper Pickaxe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:TheSacrymod"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 6,

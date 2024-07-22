@@ -4,10 +4,10 @@
   "definition": {
     "texture": "tccspawntop",
     "textureTop": "tccspawntop",
-    "textureLeft": "tccspawnblock",
+    "textureLeft": "tccspawntop",
     "textureFront": "tccspawnblock",
-    "textureRight": "tccspawnblock",
-    "textureBack": "tccspawnblock",
+    "textureRight": "tccspawntop",
+    "textureBack": "tccspawntop",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,

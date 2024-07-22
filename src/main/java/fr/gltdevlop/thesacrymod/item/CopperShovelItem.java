@@ -7,7 +7,8 @@ import net.minecraft.world.item.ShovelItem;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
+
+import fr.gltdevlop.thesacrymod.init.ThesacrymodModTabs;
 
 public class CopperShovelItem extends ShovelItem {
 	public CopperShovelItem() {
@@ -35,6 +36,6 @@ public class CopperShovelItem extends ShovelItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(Items.COPPER_INGOT));
 			}
-		}, 1, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 1, -3f, new Item.Properties().tab(ThesacrymodModTabs.TAB_THE_SACRYMOD));
 	}
 }

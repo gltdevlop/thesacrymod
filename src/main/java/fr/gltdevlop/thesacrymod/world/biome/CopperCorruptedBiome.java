@@ -36,7 +36,7 @@ public class CopperCorruptedBiome {
 
 	public static Biome createBiome() {
 		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(-26368).waterColor(-26368).waterFogColor(-26368).skyColor(-26368).foliageColorOverride(-26368).grassColorOverride(-26317)
-				.ambientParticle(new AmbientParticleSettings(ParticleTypes.LARGE_SMOKE, 0.005f)).build();
+				.ambientParticle(new AmbientParticleSettings(ParticleTypes.DRIPPING_LAVA, 0.005f)).build();
 		BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder();
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
 				PlacementUtils.register("thesacrymod:tree_copper_corrupted",

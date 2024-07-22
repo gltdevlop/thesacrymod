@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "thesacrymod:items/copper_pickaxe"
+    "layer0": "thesacrymod:items/ee_pickaxe"
   }
 }

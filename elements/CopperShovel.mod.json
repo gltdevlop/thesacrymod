@@ -3,12 +3,12 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "copper_shovel",
+    "texture": "ee_shovel",
     "customModelName": "Normal",
     "name": "Copper Shovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:TheSacrymod"
     },
     "toolType": "Spade",
     "harvestLevel": 6,

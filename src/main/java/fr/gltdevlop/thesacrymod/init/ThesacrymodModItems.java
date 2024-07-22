@@ -14,12 +14,14 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import fr.gltdevlop.thesacrymod.item.NGGYUItem;
 import fr.gltdevlop.thesacrymod.item.CopperSwordItem;
 import fr.gltdevlop.thesacrymod.item.CopperShovelItem;
 import fr.gltdevlop.thesacrymod.item.CopperPickaxeItem;
 import fr.gltdevlop.thesacrymod.item.CopperHoeItem;
 import fr.gltdevlop.thesacrymod.item.CopperAxeItem;
 import fr.gltdevlop.thesacrymod.item.CopperArmorItem;
+import fr.gltdevlop.thesacrymod.item.CompressedCopperItem;
 import fr.gltdevlop.thesacrymod.ThesacrymodMod;
 
 public class ThesacrymodModItems {
@@ -38,6 +40,8 @@ public class ThesacrymodModItems {
 	public static final RegistryObject<Item> THECORRUPTEDCOPPER_SPAWN_EGG = REGISTRY.register("thecorruptedcopper_spawn_egg",
 			() -> new ForgeSpawnEggItem(ThesacrymodModEntities.THECORRUPTEDCOPPER, -3381760, -65536, new Item.Properties().tab(ThesacrymodModTabs.TAB_THE_SACRYMOD)));
 	public static final RegistryObject<Item> TCC_SPAWN = block(ThesacrymodModBlocks.TCC_SPAWN, ThesacrymodModTabs.TAB_THE_SACRYMOD);
+	public static final RegistryObject<Item> COMPRESSED_COPPER = REGISTRY.register("compressed_copper", () -> new CompressedCopperItem());
+	public static final RegistryObject<Item> NGGYU = REGISTRY.register("nggyu", () -> new NGGYUItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

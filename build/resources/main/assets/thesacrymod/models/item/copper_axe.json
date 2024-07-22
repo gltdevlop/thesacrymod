@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "thesacrymod:items/copper_axe"
+    "layer0": "thesacrymod:items/ee_axe"
   }
 }

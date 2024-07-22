@@ -3,12 +3,12 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "copper_hoe",
+    "texture": "ee_hoe",
     "customModelName": "Normal",
     "name": "Copper Hoe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:TheSacrymod"
     },
     "toolType": "Hoe",
     "harvestLevel": 6,

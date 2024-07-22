@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:furnace"
+    },
+    "3": {
+      "item": "thesacrymod:compressed_copper"
+    },
+    "4": {
+      "item": "thesacrymod:compressed_copper"
+    },
+    "5": {
+      "item": "thesacrymod:compressed_copper"
+    },
+    "7": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "thesacrymod:tcc_spawn",
+    "count": 1
+  }
+}

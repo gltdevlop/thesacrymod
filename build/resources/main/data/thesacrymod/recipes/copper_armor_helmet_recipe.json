@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "012",
-    "3 5"
+    "345"
   ],
   "key": {
     "0": {
@@ -16,6 +16,9 @@
     },
     "3": {
       "item": "minecraft:copper_ingot"
+    },
+    "4": {
+      "item": "thesacrymod:compressed_copper"
     },
     "5": {
       "item": "minecraft:copper_ingot"

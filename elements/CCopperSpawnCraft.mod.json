@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.FURNACE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CompressedCopper"
+      },
+      {
+        "value": "CUSTOM:CompressedCopper"
+      },
+      {
+        "value": "CUSTOM:CompressedCopper"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.REDSTONE"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TCCSpawn"
+    },
+    "name": "c_copper_spawn_craft",
+    "namespace": "mod"
+  }
+}

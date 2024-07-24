@@ -1,0 +1,16 @@
+JVM:         /Applications/MCreator.app/Contents/jdk.bundle/Contents/Home/bin/java
+JVM Args:    
+Run Args:    "--task", "MERGE_MAPPING", "--left", "config/joined.tsrg", "--right", "/Users/gabriel/Documents/GitHub/thesacrymod/build/fg_cache/mcp/1.19.2-20220805.130853/joined/3fdeccc034e9bdf5909b388ae9d584e35db4dad7/downloadClientMappings/client_mappings.txt", "--right-names", "right,left", "--classes", "--output", "/Users/gabriel/Documents/GitHub/thesacrymod/build/fg_cache/mcp/1.19.2-20220805.130853/joined/3fdeccc034e9bdf5909b388ae9d584e35db4dad7/mergeMappings/output.jar"
+Classpath:   /Users/gabriel/.mcreator/gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/installertools/1.2.0/installertools-1.2.0-fatjar.jar
+Working Dir: /Users/gabriel/Documents/GitHub/thesacrymod/build/fg_cache/mcp/1.19.2-20220805.130853/joined/3fdeccc034e9bdf5909b388ae9d584e35db4dad7/mergeMappings
+Main Class:  net.minecraftforge.installertools.ConsoleTool
+Task: MERGE_MAPPING
+Left:    config/joined.tsrg
+         null
+Right:   /Users/gabriel/Documents/GitHub/thesacrymod/build/fg_cache/mcp/1.19.2-20220805.130853/joined/3fdeccc034e9bdf5909b388ae9d584e35db4dad7/downloadClientMappings/client_mappings.txt
+         right,left
+Classes: true
+Fields:  false
+Methods: false
+Params:  false
+Output:  /Users/gabriel/Documents/GitHub/thesacrymod/build/fg_cache/mcp/1.19.2-20220805.130853/joined/3fdeccc034e9bdf5909b388ae9d584e35db4dad7/mergeMappings/output.jar

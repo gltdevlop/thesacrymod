@@ -23,6 +23,7 @@ import fr.gltdevlop.thesacrymod.item.CopperHoeItem;
 import fr.gltdevlop.thesacrymod.item.CopperAxeItem;
 import fr.gltdevlop.thesacrymod.item.CopperArmorItem;
 import fr.gltdevlop.thesacrymod.item.CompressedCopperItem;
+import fr.gltdevlop.thesacrymod.item.BambooBreadItem;
 import fr.gltdevlop.thesacrymod.ThesacrymodMod;
 
 public class ThesacrymodModItems {
@@ -44,6 +45,7 @@ public class ThesacrymodModItems {
 	public static final RegistryObject<Item> COMPRESSED_COPPER = REGISTRY.register("compressed_copper", () -> new CompressedCopperItem());
 	public static final RegistryObject<Item> NGGYU = REGISTRY.register("nggyu", () -> new NGGYUItem());
 	public static final RegistryObject<Item> STARTING_GUIDE = REGISTRY.register("starting_guide", () -> new StartingGuideItem());
+	public static final RegistryObject<Item> BAMBOO_BREAD = REGISTRY.register("bamboo_bread", () -> new BambooBreadItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

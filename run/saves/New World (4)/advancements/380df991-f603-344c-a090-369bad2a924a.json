@@ -83,11 +83,23 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2024-07-24 03:53:07 +0200"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:savanna": "2024-07-22 13:21:06 +0200"
     },
     "done": false
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2024-07-24 03:53:10 +0200"
+    },
+    "done": true
   },
   "minecraft:recipes/building_blocks/copper_block": {
     "criteria": {
@@ -98,6 +110,12 @@
   "minecraft:recipes/building_blocks/waxed_copper_block_from_honeycomb": {
     "criteria": {
       "has_copper_block": "2024-07-22 13:23:29 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2024-07-24 03:53:07 +0200"
     },
     "done": true
   },
@@ -116,6 +134,12 @@
   "minecraft:recipes/building_blocks/cut_copper_stairs_from_copper_block_stonecutting": {
     "criteria": {
       "has_copper_block": "2024-07-22 13:23:29 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2024-07-24 03:53:23 +0200"
     },
     "done": true
   },
@@ -149,6 +173,12 @@
     },
     "done": true
   },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2024-07-24 03:53:12 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dropper": {
     "criteria": {
       "has_redstone": "2024-07-22 13:21:32 +0200"
@@ -176,6 +206,12 @@
   "minecraft:adventure/root": {
     "criteria": {
       "killed_by_something": "2024-07-22 13:22:47 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2024-07-24 03:53:10 +0200"
     },
     "done": true
   },

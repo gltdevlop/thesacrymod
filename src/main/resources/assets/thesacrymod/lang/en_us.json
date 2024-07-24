@@ -1,6 +1,6 @@
 {
-  "block.thesacrymod.copper_grass": "Copper Grass",
   "gui.thesacrymod.start_guide.label_you_can_spawn_the_corrupted_copp": "You can spawn the Corrupted Copper in ",
+  "block.thesacrymod.copper_grass": "Copper Grass",
   "biome.thesacrymod.copper_corrupted": "Copper Corrupted",
   "itemGroup.tabthe_sacrymod": "The Sacrymod",
   "gui.thesacrymod.start_guide.label_mobs": "---------- MOBS ----------",
@@ -22,6 +22,7 @@
   "gui.thesacrymod.world_infos.label_empty1": "",
   "item.thesacrymod.starting_guide": "Starting Guide",
   "item.thesacrymod.copper_shovel": "Copper Shovel",
+  "item.thesacrymod.bamboo_bread": "Bamboo Bread",
   "item.thesacrymod.copper_armor_boots": "Copper Boots",
   "gui.thesacrymod.tccsp_gui.label_12_redstone": "12 REDSTONE",
   "item.thesacrymod.copper_axe": "Copper Axe",

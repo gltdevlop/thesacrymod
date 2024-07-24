@@ -1,0 +1,6 @@
+JVM:         /Applications/MCreator.app/Contents/jdk.bundle/Contents/Home/bin/java
+JVM Args:    
+Run Args:    "--inJar", "/Users/gabriel/Documents/GitHub/thesacrymod/build/fg_cache/mcp/1.19.2-20220805.130853/joined/3fdeccc034e9bdf5909b388ae9d584e35db4dad7/rename/output.jar", "--outJar", "/Users/gabriel/Documents/GitHub/thesacrymod/build/fg_cache/mcp/1.19.2-20220805.130853/joined/3fdeccc034e9bdf5909b388ae9d584e35db4dad7/AccessTransformer/output.jar", "--atFile", "/Users/gabriel/Documents/GitHub/thesacrymod/src/main/resources/META-INF/accesstransformer.cfg", "--atFile", "/var/folders/8z/3slk53nd06j8pk07cbzqkp6w0000gn/T/FG_ats_13669670390620349069.cfg"
+Classpath:   /Users/gabriel/.mcreator/gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/accesstransformers/8.0.7/accesstransformers-8.0.7-fatjar.jar
+Working Dir: /Users/gabriel/Documents/GitHub/thesacrymod/build/fg_cache/mcp/1.19.2-20220805.130853/joined/3fdeccc034e9bdf5909b388ae9d584e35db4dad7/AccessTransformer
+Main Class:  net.minecraftforge.accesstransformer.TransformerProcessor

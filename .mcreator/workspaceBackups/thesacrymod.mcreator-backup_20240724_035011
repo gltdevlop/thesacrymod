@@ -1,0 +1,574 @@
+{
+  "mod_elements": [
+    {
+      "name": "TheSacrymod",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_sacrymod",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "CopperArmor",
+      "type": "armor",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/thesacrymod/models/item/copper_armor_boots.json",
+          "src/main/resources/assets/thesacrymod/models/item/copper_armor_helmet.json",
+          "src/main/resources/assets/thesacrymod/models/item/copper_armor_chestplate.json",
+          "src/main/java/fr/gltdevlop/thesacrymod/item/CopperArmorItem.java",
+          "src/main/resources/assets/thesacrymod/models/item/copper_armor_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thesacrymod/recipes/copper_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thesacrymod/recipes/copper_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thesacrymod/recipes/copper_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thesacrymod/recipes/copper_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperPickaxe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/thesacrymod/models/item/copper_pickaxe.json",
+          "src/main/java/fr/gltdevlop/thesacrymod/item/CopperPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CopperAxe",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gltdevlop/thesacrymod/item/CopperAxeItem.java",
+          "src/main/resources/assets/thesacrymod/models/item/copper_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperSword",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gltdevlop/thesacrymod/item/CopperSwordItem.java",
+          "src/main/resources/assets/thesacrymod/models/item/copper_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperShovel",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gltdevlop/thesacrymod/item/CopperShovelItem.java",
+          "src/main/resources/assets/thesacrymod/models/item/copper_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperHoe",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/thesacrymod/models/item/copper_hoe.json",
+          "src/main/java/fr/gltdevlop/thesacrymod/item/CopperHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CopperPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thesacrymod/recipes/copper_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperAxeRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thesacrymod/recipes/copper_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperSwordRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thesacrymod/recipes/copper_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperShovelRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thesacrymod/recipes/copper_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperHoeRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thesacrymod/recipes/copper_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperGrass",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_grass",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gltdevlop/thesacrymod/block/CopperGrassBlock.java",
+          "src/main/resources/assets/thesacrymod/models/block/copper_grass.json",
+          "src/main/resources/assets/thesacrymod/blockstates/copper_grass.json",
+          "src/main/resources/assets/thesacrymod/models/item/copper_grass.json"
+        ]
+      }
+    },
+    {
+      "name": "Copperdirt",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperdirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/thesacrymod/blockstates/copperdirt.json",
+          "src/main/java/fr/gltdevlop/thesacrymod/block/CopperdirtBlock.java",
+          "src/main/resources/assets/thesacrymod/models/item/copperdirt.json",
+          "src/main/resources/assets/thesacrymod/models/block/copperdirt.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperCorrupted",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_corrupted",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gltdevlop/thesacrymod/world/biome/CopperCorruptedBiome.java"
+        ]
+      }
+    },
+    {
+      "name": "Thecorruptedcopper",
+      "type": "livingentity",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thecorruptedcopper",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/thesacrymod/models/item/thecorruptedcopper_spawn_egg.json",
+          "src/main/java/fr/gltdevlop/thesacrymod/entity/ThecorruptedcopperEntity.java",
+          "src/main/java/fr/gltdevlop/thesacrymod/client/renderer/ThecorruptedcopperRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "TCCSpawn",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tcc_spawn",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/thesacrymod/blockstates/tcc_spawn.json",
+          "src/main/resources/assets/thesacrymod/models/item/tcc_spawn.json",
+          "src/main/java/fr/gltdevlop/thesacrymod/block/TCCSpawnBlock.java",
+          "src/main/resources/assets/thesacrymod/models/block/tcc_spawn.json"
+        ]
+      }
+    },
+    {
+      "name": "TCCGuiSpawnButtonClick",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tcc_gui_spawn_button_click",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gltdevlop/thesacrymod/procedures/TCCGuiSpawnButtonClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TCCSPGui",
+      "type": "gui",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tccsp_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gltdevlop/thesacrymod/world/inventory/TCCSPGuiMenu.java",
+          "src/main/java/fr/gltdevlop/thesacrymod/network/TCCSPGuiButtonMessage.java",
+          "src/main/java/fr/gltdevlop/thesacrymod/client/gui/TCCSPGuiScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "CompressedCopper",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressed_copper",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gltdevlop/thesacrymod/item/CompressedCopperItem.java",
+          "src/main/resources/assets/thesacrymod/models/item/compressed_copper.json"
+        ]
+      }
+    },
+    {
+      "name": "CCopperCraft",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_copper_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thesacrymod/recipes/c_copper_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "CCopperSpawnCraft",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_copper_spawn_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thesacrymod/recipes/c_copper_spawn_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "ThecorruptedcopperEntityDies",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thecorruptedcopper_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gltdevlop/thesacrymod/procedures/ThecorruptedcopperEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NGGYU",
+      "type": "musicdisc",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nggyu",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gltdevlop/thesacrymod/item/NGGYUItem.java",
+          "src/main/resources/assets/thesacrymod/models/item/nggyu.json"
+        ]
+      }
+    },
+    {
+      "name": "NggyuCraft",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nggyu_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thesacrymod/recipes/nggyu_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "StartGuide",
+      "type": "gui",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "start_guide",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gltdevlop/thesacrymod/world/inventory/StartGuideMenu.java",
+          "src/main/java/fr/gltdevlop/thesacrymod/client/gui/StartGuideScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "StartingGuide",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starting_guide",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gltdevlop/thesacrymod/item/inventory/StartingGuideInventoryCapability.java",
+          "src/main/java/fr/gltdevlop/thesacrymod/item/StartingGuideItem.java",
+          "src/main/resources/assets/thesacrymod/models/item/starting_guide.json"
+        ]
+      }
+    },
+    {
+      "name": "PJCount",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pj_count",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gltdevlop/thesacrymod/procedures/PJCountProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PFirstTime",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "p_first_time",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gltdevlop/thesacrymod/procedures/PFirstTimeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "PlayerJCount",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "never",
+      "files": [
+        "rick_astley_-_never_gonna_give_you_up_official_music_video"
+      ],
+      "category": "record",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "gui.thesacrymod.start_guide.label_you_can_spawn_the_corrupted_copp": "You can spawn the Corrupted Copper in ",
+      "block.thesacrymod.copper_grass": "Copper Grass",
+      "biome.thesacrymod.copper_corrupted": "Copper Corrupted",
+      "itemGroup.tabthe_sacrymod": "The Sacrymod",
+      "gui.thesacrymod.start_guide.label_mobs": "---------- MOBS ----------",
+      "item.thesacrymod.compressed_copper": "Compressed Copper",
+      "item.thesacrymod.copper_sword": "Copper Sword",
+      "gui.thesacrymod.start_guide.label_the_corrupted_copper_biome": "the Corrupted Copper Biome by using",
+      "item.thesacrymod.copper_armor_helmet": "Copper Helmet",
+      "gui.thesacrymod.start_guide.label_tools_armors": "---------- Tools / Armors ----------",
+      "gui.thesacrymod.start_guide.label_compressed_copper": "Compressed Copper.",
+      "block.thesacrymod.copperdirt": "Copper Dirt",
+      "item.thesacrymod.copper_pickaxe": "Copper Pickaxe",
+      "gui.thesacrymod.tccsp_gui.label_64_copper": "64 COPPER",
+      "item.thesacrymod.copper_armor_leggings": "Copper Leggings",
+      "item.thesacrymod.thecorruptedcopper_spawn_egg": "The Corrupted Copper Spawn Egg",
+      "block.thesacrymod.tcc_spawn": "The Copper Corrupted Spawner",
+      "gui.thesacrymod.start_guide.label_use_can_craft_the_copper_armor_a": "Use can craft the Copper Armor and ",
+      "gui.thesacrymod.start_guide.label_the_corrupted_copper_spawner": "the Corrupted Copper Spawner.",
+      "subtitles.nggyu": "",
+      "gui.thesacrymod.world_infos.label_empty1": "",
+      "item.thesacrymod.starting_guide": "Starting Guide",
+      "item.thesacrymod.copper_shovel": "Copper Shovel",
+      "item.thesacrymod.copper_armor_boots": "Copper Boots",
+      "gui.thesacrymod.tccsp_gui.label_12_redstone": "12 REDSTONE",
+      "item.thesacrymod.copper_axe": "Copper Axe",
+      "gui.thesacrymod.tccsp_gui.button_spawn": "SPAWN !",
+      "subtitles.never": "",
+      "item.thesacrymod.nggyu": "NGGYU Disc",
+      "item.thesacrymod.copper_armor_chestplate": "Copper Chestplate",
+      "gui.thesacrymod.start_guide.label_the_sacry_mod_starting_guidee": "The Sacry Mod - Starting Guide",
+      "gui.thesacrymod.tccsp_gui.label_the_copper_currupted_spawner": "The Copper Currupted - Spawner",
+      "entity.thesacrymod.thecorruptedcopper": "The Corrupted Copper",
+      "item.thesacrymod.copper_hoe": "Copper Hoe",
+      "gui.thesacrymod.time.label_its": "It\u0027s ",
+      "item.thesacrymod.nggyu.desc": "NGGYU :)",
+      "gui.thesacrymod.start_guide.label_tools_by_using_copper_ingots_and": "tools by using Copper Ingots and"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "thesacrymod",
+    "modName": "TheSacryMod",
+    "version": "1.0.0",
+    "author": "gabrielbrte, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "fr.gltdevlop.thesacrymod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}

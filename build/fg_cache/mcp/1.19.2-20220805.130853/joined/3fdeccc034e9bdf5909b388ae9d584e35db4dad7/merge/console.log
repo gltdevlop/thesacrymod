@@ -1,0 +1,6 @@
+JVM:         /Applications/MCreator.app/Contents/jdk.bundle/Contents/Home/bin/java
+JVM Args:    
+Run Args:    "--client", "/Users/gabriel/Documents/GitHub/thesacrymod/build/fg_cache/mcp/1.19.2-20220805.130853/joined/3fdeccc034e9bdf5909b388ae9d584e35db4dad7/stripClient/output.jar", "--server", "/Users/gabriel/Documents/GitHub/thesacrymod/build/fg_cache/mcp/1.19.2-20220805.130853/joined/3fdeccc034e9bdf5909b388ae9d584e35db4dad7/stripServer/output.jar", "--ann", "1.19.2", "--output", "/Users/gabriel/Documents/GitHub/thesacrymod/build/fg_cache/mcp/1.19.2-20220805.130853/joined/3fdeccc034e9bdf5909b388ae9d584e35db4dad7/merge/output.jar", "--inject", "false"
+Classpath:   /Users/gabriel/.mcreator/gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-fatjar.jar
+Working Dir: /Users/gabriel/Documents/GitHub/thesacrymod/build/fg_cache/mcp/1.19.2-20220805.130853/joined/3fdeccc034e9bdf5909b388ae9d584e35db4dad7/merge
+Main Class:  net.minecraftforge.mergetool.ConsoleMerger

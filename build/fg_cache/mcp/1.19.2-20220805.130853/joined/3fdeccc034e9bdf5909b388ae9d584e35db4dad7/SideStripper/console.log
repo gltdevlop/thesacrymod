@@ -1,0 +1,9 @@
+JVM:         /Applications/MCreator.app/Contents/jdk.bundle/Contents/Home/bin/java
+JVM Args:    
+Run Args:    "--strip", "--input", "/Users/gabriel/Documents/GitHub/thesacrymod/build/fg_cache/mcp/1.19.2-20220805.130853/joined/3fdeccc034e9bdf5909b388ae9d584e35db4dad7/AccessTransformer/output.jar", "--output", "/Users/gabriel/Documents/GitHub/thesacrymod/build/fg_cache/mcp/1.19.2-20220805.130853/joined/3fdeccc034e9bdf5909b388ae9d584e35db4dad7/SideStripper/output.jar", "--data", "/Users/gabriel/Documents/GitHub/thesacrymod/build/fg_cache/mcp/1.19.2-20220805.130853/joined/3fdeccc034e9bdf5909b388ae9d584e35db4dad7/SideStripper/string_data.sas"
+Classpath:   /Users/gabriel/.mcreator/gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/mergetool/1.1.6/mergetool-1.1.6-fatjar.jar
+Working Dir: /Users/gabriel/Documents/GitHub/thesacrymod/build/fg_cache/mcp/1.19.2-20220805.130853/joined/3fdeccc034e9bdf5909b388ae9d584e35db4dad7/SideStripper
+Main Class:  net.minecraftforge.mergetool.ConsoleMerger
+Input:  /Users/gabriel/Documents/GitHub/thesacrymod/build/fg_cache/mcp/1.19.2-20220805.130853/joined/3fdeccc034e9bdf5909b388ae9d584e35db4dad7/AccessTransformer/output.jar
+Output: /Users/gabriel/Documents/GitHub/thesacrymod/build/fg_cache/mcp/1.19.2-20220805.130853/joined/3fdeccc034e9bdf5909b388ae9d584e35db4dad7/SideStripper/output.jar
+Data:   /Users/gabriel/Documents/GitHub/thesacrymod/build/fg_cache/mcp/1.19.2-20220805.130853/joined/3fdeccc034e9bdf5909b388ae9d584e35db4dad7/SideStripper/string_data.sas

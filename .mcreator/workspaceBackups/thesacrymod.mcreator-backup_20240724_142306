@@ -489,34 +489,29 @@
       }
     },
     {
-      "name": "Speaker",
-      "type": "block",
+      "name": "BambooBread",
+      "type": "item",
       "sortid": 33,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "speaker",
+      "registry_name": "bamboo_bread",
       "metadata": {
         "files": [
-          "src/main/resources/assets/thesacrymod/models/item/speaker.json",
-          "src/main/resources/assets/thesacrymod/blockstates/speaker.json",
-          "src/main/resources/assets/thesacrymod/models/block/speaker.json",
-          "src/main/java/fr/gltdevlop/thesacrymod/block/SpeakerBlock.java"
+          "src/main/java/fr/gltdevlop/thesacrymod/item/BambooBreadItem.java",
+          "src/main/resources/assets/thesacrymod/models/item/bamboo_bread.json"
         ]
       }
     },
     {
-      "name": "SpeakerController",
-      "type": "block",
+      "name": "BBR",
+      "type": "recipe",
       "sortid": 34,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "speaker_controller",
+      "registry_name": "bbr",
       "metadata": {
         "files": [
-          "src/main/resources/assets/thesacrymod/blockstates/speaker_controller.json",
-          "src/main/resources/assets/thesacrymod/models/item/speaker_controller.json",
-          "src/main/resources/assets/thesacrymod/models/block/speaker_controller.json",
-          "src/main/java/fr/gltdevlop/thesacrymod/block/SpeakerControllerBlock.java"
+          "src/main/resources/data/thesacrymod/recipes/bbr.json"
         ]
       }
     }
@@ -541,11 +536,9 @@
   ],
   "language_map": {
     "en_us": {
-      "block.thesacrymod.speaker_controller": "Speaker Controller",
-      "block.thesacrymod.copper_grass": "Copper Grass",
       "gui.thesacrymod.start_guide.label_you_can_spawn_the_corrupted_copp": "You can spawn the Corrupted Copper in ",
+      "block.thesacrymod.copper_grass": "Copper Grass",
       "biome.thesacrymod.copper_corrupted": "Copper Corrupted",
-      "block.thesacrymod.speaker": "Speaker",
       "itemGroup.tabthe_sacrymod": "The Sacrymod",
       "gui.thesacrymod.start_guide.label_mobs": "---------- MOBS ----------",
       "item.thesacrymod.compressed_copper": "Compressed Copper",
@@ -566,6 +559,7 @@
       "gui.thesacrymod.world_infos.label_empty1": "",
       "item.thesacrymod.starting_guide": "Starting Guide",
       "item.thesacrymod.copper_shovel": "Copper Shovel",
+      "item.thesacrymod.bamboo_bread": "Bamboo Bread",
       "item.thesacrymod.copper_armor_boots": "Copper Boots",
       "gui.thesacrymod.tccsp_gui.label_12_redstone": "12 REDSTONE",
       "item.thesacrymod.copper_axe": "Copper Axe",
@@ -600,6 +594,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "fr.gltdevlop.thesacrymod",
     "lockBaseModFiles": false
   },

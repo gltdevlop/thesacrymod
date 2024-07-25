@@ -445,9 +445,85 @@
           "src/main/resources/assets/thesacrymod/models/item/starting_guide.json"
         ]
       }
+    },
+    {
+      "name": "PJCount",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pj_count",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gltdevlop/thesacrymod/procedures/PJCountProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PFirstTime",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "p_first_time",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gltdevlop/thesacrymod/procedures/PFirstTimeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BambooBread",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bamboo_bread",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gltdevlop/thesacrymod/item/BambooBreadItem.java",
+          "src/main/resources/assets/thesacrymod/models/item/bamboo_bread.json"
+        ]
+      }
+    },
+    {
+      "name": "BBR",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bbr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thesacrymod/recipes/bbr.json"
+        ]
+      }
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "PlayerJCount",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
   "sound_elements": [
     {
       "name": "never",
@@ -483,6 +559,7 @@
       "gui.thesacrymod.world_infos.label_empty1": "",
       "item.thesacrymod.starting_guide": "Starting Guide",
       "item.thesacrymod.copper_shovel": "Copper Shovel",
+      "item.thesacrymod.bamboo_bread": "Bamboo Bread",
       "item.thesacrymod.copper_armor_boots": "Copper Boots",
       "gui.thesacrymod.tccsp_gui.label_12_redstone": "12 REDSTONE",
       "item.thesacrymod.copper_axe": "Copper Axe",
@@ -517,6 +594,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "fr.gltdevlop.thesacrymod",
     "lockBaseModFiles": false
   },

@@ -536,8 +536,8 @@
   ],
   "language_map": {
     "en_us": {
-      "gui.thesacrymod.start_guide.label_you_can_spawn_the_corrupted_copp": "You can spawn the Corrupted Copper in ",
       "block.thesacrymod.copper_grass": "Copper Grass",
+      "gui.thesacrymod.start_guide.label_you_can_spawn_the_corrupted_copp": "You can spawn the Corrupted Copper in ",
       "biome.thesacrymod.copper_corrupted": "Copper Corrupted",
       "itemGroup.tabthe_sacrymod": "The Sacrymod",
       "gui.thesacrymod.start_guide.label_mobs": "---------- MOBS ----------",
